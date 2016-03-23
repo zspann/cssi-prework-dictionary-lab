@@ -13,12 +13,12 @@ Using the power of Python, and the game dictionary in `basketball_info.py`, writ
 
 2. Return a team's colors, as a string: `Black and Red` or `Green and White`
 
-These next two functions will challenge you to iterate over a dictionary while being mindful of punctuation.
+   These next two functions will challenge you to iterate over a dictionary while being mindful of punctuation.
 
 3. Return the points scored by each player on a team. There should be a ' - ' between each player and their points. A comma and a space should separate each name. The whole string should end with a period.
 
-To do this, you'll want to loop through the player and points and use .format to get the dash and comma.
-`Name - Points, Name2 - Points2,`. Then at the end of the iteration, you can manipulate the string to delete the last comma and instead add a period.
+  To do this, you'll want to loop through the player and points and use .format to get the dash and comma.
+  `Name - Points, Name2 - Points2,`. Then at the end of the iteration, you can manipulate the string to delete the last comma and instead add a period.
 
   ```
   >>> print player_points('Chicago Bulls')
@@ -26,7 +26,7 @@ To do this, you'll want to loop through the player and points and use .format to
   ```
 
 4. Return all the stats for a player, given a player's team and name. Notice that each stat (except for the last) is separated by a new line \n.
-```
+  ```
   >>> print player_stats('Chicago Bulls', 'Scottie Pippen')
   Name: Michael Jordan
   Slam_dunks: 4
