@@ -9,17 +9,17 @@ In this lab, we've gotten a bunch of data from the Yahoo Sports API. There is a 
 
 Using the power of Python, and the game dictionary in `basketball_info.py`, write functions in `basketball.py` to complete the following:
 
-1. Return the name of the home team and the away team. We've done this one for you to get started.
+1.Return the name of the home team and the away team. We've done this one for you to get started.
 
-2. Return a team's colors, as a string: `Black and Red` or `Green and White`
+2.Return a team's colors, as a string: `Black and Red` or `Green and White`
 
-3. Return the points scored by each player on a team. There should be a ' - ' between each player and their points. A comma and a space should separate each name.
+3.Return the points scored by each player on a team. There should be a ' - ' between each player and their points. A comma and a space should separate each name.
 ```
 >>> print player_points('Chicago Bulls')
 Michael Jordan - 28 pts, Scottie Pippen - 22 pts, Dennis Rodman - 18 pts, Tony Kukoc - 20 pts, Ron Artest - 12 pts.
 ```
 
-4. Return all the stats for a player, given a player's team and name.
+4.Return all the stats for a player, given a player's team and name.
 ```
 >>> print player_stats('Chicago Bulls', 'Scottie Pippen')
 Name: Michael Jordan
@@ -30,7 +30,7 @@ Shoe: 15
 Steals: 5
 ```
 
-5. Given a team and a player's name, return that player's shoe size. Hint: try finding the player first (the same way you did with `player_stats`) then look for his shoe size.
+5.Given a team and a player's name, return that player's shoe size. Hint: try finding the player first (the same way you did with `player_stats`) then look for his shoe size.
 
 
-6. For a given team, find the player with the largest shoe size and return their number of steals.
+6.For a given team, find the player with the largest shoe size and return their number of steals.
