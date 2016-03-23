@@ -1,4 +1,4 @@
-# Hashketball
+# Basketball Stats
 
 ## Overview
 Dictionaries offer an organized way to store a lot of information because of the way that each value can be accessed by a unique key. Many of the APIs you'll be working with send data in the form of nested arrays and dictionaries. Being comfortable iterating through nested data structures will allow you to access and manipulate data from a variety of sources.
@@ -13,13 +13,17 @@ Using the power of Python, and the game dictionary in `basketball_info.py`, writ
 
 2. Return a team's colors, as a string: `Black and Red` or `Green and White`
 
-3. Return the points scored by each player on a team. There should be a ' - ' between each player and their points. A comma and a space should separate each name.
+3. Return the points scored by each player on a team. There should be a ' - ' between each player and their points. A comma and a space should separate each name. The whole string should end with a period.
+
+To do this, you'll want to loop through the player and points and use .format to get the dash and comma.
+`Name - Points, Name2 - Points2,`. Then at the end of the iteration, you can manipulate the string to delete the last comma and instead add a period.
+
 ```
 >>> print player_points('Chicago Bulls')
 Michael Jordan - 28 pts, Scottie Pippen - 22 pts, Dennis Rodman - 18 pts, Tony Kukoc - 20 pts, Ron Artest - 12 pts.
 ```
 
-4. Return all the stats for a player, given a player's team and name.
+4. Return all the stats for a player, given a player's team and name. Notice that each stat (except for the last) is separated by a new line \n.
 ```
 >>> print player_stats('Chicago Bulls', 'Scottie Pippen')
 Name: Michael Jordan
