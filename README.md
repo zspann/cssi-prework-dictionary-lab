@@ -1,4 +1,4 @@
-# Hashketball
+# Basketball Stats
 
 ## Overview
 Dictionaries offer an organized way to store a lot of information because of the way that each value can be accessed by a unique key. Many of the APIs you'll be working with send data in the form of nested arrays and dictionaries. Being comfortable iterating through nested data structures will allow you to access and manipulate data from a variety of sources.
