@@ -5,9 +5,9 @@ Dictionaries offer an organized way to store a lot of information because of the
 
 ## Instructions
 
-In this lab, we've gotten a bunch of data from the Yahoo Sports API. There is a nested dictionary in `basketball_info.py` that defines a game, with two teams, their players, and the players stats.
+In this lab, we've gotten a bunch of data from the Yahoo Sports API. There is a nested dictionary in `basketball_info.py` that defines a game, with two teams, their players, and the players' stats.
 
-Using the power of Python, and the game dictionary in `basketball_info.py`, write functions in `basketball.py` to complete the following:
+Using the power of Python and the game dictionary in `basketball_info.py`, write functions in `basketball.py` to complete the following:
 
 1. Return the name of the home team and the away team. We've done this one for you to get started.
 
