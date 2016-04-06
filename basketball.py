@@ -30,11 +30,9 @@ def player_stats(team, player_name):
             return message[:-1]
 
 
+
 # Return a player's shoe size.
 def shoe_size(team, player_name):
-    for player in game_dictionary[team]['players']:
-        if player['name']==player_name:
-            return player['shoe']
 
 
 
@@ -47,3 +45,4 @@ def big_shoe_stealer(team):
           biggest_shoe = player['shoe']
           steals = player['steals']
    return steals
+
